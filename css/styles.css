@@ -234,9 +234,19 @@ ul {
     z-index: 100;
     border-bottom: 1px solid transparent;
     background: rgba(5, 5, 6, 0.55);
+    transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+
+/* Blur живёт на псевдоэлементе: backdrop-filter на самой шапке делает её
+   содержащим блоком для position:fixed потомков и ломает мобильное меню. */
+.header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    transition: background-color 0.25s ease, border-color 0.25s ease;
 }
 
 .header.is-scrolled {
