@@ -1,0 +1,62 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Кассетный кондиционер">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#101013"/>
+      <stop offset="1" stop-color="#070708"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.2" r="0.8">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FAFAFC"/>
+      <stop offset="0.6" stop-color="#DEDEE4"/>
+      <stop offset="1" stop-color="#AEAEB6"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CFCFD6"/>
+      <stop offset="1" stop-color="#9E9EA6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg2)"/>
+  <rect width="1200" height="900" fill="url(#glow2)"/>
+
+  <g stroke="#ffffff" stroke-opacity="0.04">
+    <path d="M0 225H1200M0 450H1200M0 675H1200"/>
+    <path d="M300 0V900M600 0V900M900 0V900"/>
+  </g>
+
+  <g transform="translate(600 450)">
+    <rect x="-300" y="-300" width="600" height="600" rx="26" fill="url(#panel)"/>
+    <rect x="-262" y="-262" width="524" height="524" rx="18" fill="url(#inner)"/>
+    <rect x="-226" y="-226" width="452" height="452" rx="12" fill="#17171B"/>
+
+    <g fill="#0B0B0D">
+      <rect x="-206" y="-206" width="412" height="34" rx="17"/>
+      <rect x="-206" y="172" width="412" height="34" rx="17"/>
+      <rect x="-206" y="-172" width="34" height="344" rx="17"/>
+      <rect x="172" y="-172" width="34" height="344" rx="17"/>
+    </g>
+
+    <g stroke="#2C2C33" stroke-width="2">
+      <path d="M-186 -189h372M-186 189h372"/>
+    </g>
+
+    <circle r="118" fill="none" stroke="#2A2A31" stroke-width="1.5"/>
+    <circle r="86" fill="none" stroke="#2A2A31" stroke-width="1.5"/>
+    <circle r="54" fill="none" stroke="#2A2A31" stroke-width="1.5"/>
+
+    <g stroke="#3A3A42" stroke-width="1.2" stroke-opacity="0.8">
+      <path d="M-112 0h224M0 -112v224M-80 -80l160 160M80 -80l-160 160"/>
+    </g>
+
+    <circle cx="0" cy="0" r="14" fill="#FF2E88"/>
+    <circle cx="-232" cy="-232" r="5" fill="#FF2E88"/>
+  </g>
+
+  <g fill="none" stroke="#FF2E88" stroke-opacity="0.30" stroke-width="2" stroke-linecap="round">
+    <path d="M300 780c60-40 120-40 180 0"/>
+    <path d="M720 780c60-40 120-40 180 0"/>
+  </g>
+</svg>

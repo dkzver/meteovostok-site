@@ -1,0 +1,73 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Мобильный кондиционер">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101013"/>
+      <stop offset="1" stop-color="#070709"/>
+    </linearGradient>
+    <radialGradient id="glow4" cx="0.5" cy="0.18" r="0.8">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F2F2F6"/>
+      <stop offset="0.5" stop-color="#DDDDE3"/>
+      <stop offset="1" stop-color="#B6B6BE"/>
+    </linearGradient>
+    <linearGradient id="front4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EDEDF2"/>
+      <stop offset="1" stop-color="#C4C4CB"/>
+    </linearGradient>
+    <radialGradient id="shadow4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg4)"/>
+  <rect width="1200" height="900" fill="url(#glow4)"/>
+
+  <g stroke="#ffffff" stroke-opacity="0.04">
+    <path d="M0 180H1200M0 360H1200M0 540H1200M0 720H1200"/>
+    <path d="M300 0V900M600 0V900M900 0V900"/>
+  </g>
+
+  <ellipse cx="600" cy="780" rx="250" ry="40" fill="url(#shadow4)"/>
+
+  <g>
+    <rect x="440" y="150" width="320" height="600" rx="34" fill="url(#body4)"/>
+    <rect x="462" y="172" width="276" height="556" rx="22" fill="url(#front4)"/>
+
+    <rect x="490" y="204" width="220" height="120" rx="12" fill="#17171B"/>
+    <g stroke="#2E2E36" stroke-width="2">
+      <path d="M504 232h192M504 256h192M504 280h192M504 304h192"/>
+    </g>
+
+    <rect x="490" y="352" width="220" height="54" rx="10" fill="#1B1B20"/>
+    <circle cx="516" cy="379" r="9" fill="#FF2E88"/>
+    <g fill="#55555E">
+      <rect x="544" y="368" width="44" height="6" rx="3"/>
+      <rect x="544" y="384" width="60" height="6" rx="3"/>
+      <rect x="628" y="368" width="34" height="22" rx="5"/>
+    </g>
+
+    <rect x="490" y="436" width="220" height="200" rx="12" fill="#1A1A1F"/>
+    <g stroke="#33333B" stroke-width="3">
+      <path d="M496 462h208M496 490h208M496 518h208M496 546h208M496 574h208M496 602h208"/>
+    </g>
+
+    <path d="M520 150v-40h160v40" fill="none" stroke="#B9B9C1" stroke-width="12" stroke-linecap="round"/>
+    <rect x="560" y="96" width="80" height="16" rx="8" fill="#9A9AA2"/>
+
+    <circle cx="512" cy="740" r="22" fill="#2A2A31"/>
+    <circle cx="688" cy="740" r="22" fill="#2A2A31"/>
+    <circle cx="512" cy="740" r="8" fill="#0B0B0D"/>
+    <circle cx="688" cy="740" r="8" fill="#0B0B0D"/>
+
+    <rect x="440" y="690" width="320" height="18" rx="9" fill="#8E8E97"/>
+  </g>
+
+  <g fill="none" stroke="#FF2E88" stroke-opacity="0.30" stroke-width="2" stroke-linecap="round">
+    <path d="M780 300c50 30 74 66 76 110"/>
+    <path d="M800 270c64 36 96 84 100 138"/>
+  </g>
+</svg>

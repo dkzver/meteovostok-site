@@ -1,0 +1,64 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Колонный кондиционер">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111114"/>
+      <stop offset="1" stop-color="#070709"/>
+    </linearGradient>
+    <radialGradient id="glow5" cx="0.5" cy="0.15" r="0.85">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="col" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F5F5F8"/>
+      <stop offset="0.55" stop-color="#D9D9E0"/>
+      <stop offset="1" stop-color="#A8A8B0"/>
+    </linearGradient>
+    <radialGradient id="shadow5" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg5)"/>
+  <rect width="1200" height="900" fill="url(#glow5)"/>
+
+  <g stroke="#ffffff" stroke-opacity="0.04">
+    <path d="M0 300H1200M0 600H1200"/>
+    <path d="M150 0V900M450 0V900M750 0V900M1050 0V900"/>
+  </g>
+
+  <ellipse cx="600" cy="812" rx="260" ry="36" fill="url(#shadow5)"/>
+
+  <g>
+    <rect x="470" y="90" width="260" height="700" rx="34" fill="url(#col)"/>
+    <rect x="492" y="112" width="216" height="656" rx="22" fill="#F0F0F4"/>
+
+    <rect x="514" y="140" width="172" height="70" rx="10" fill="#17171B"/>
+    <g stroke="#2E2E36" stroke-width="2">
+      <path d="M524 160h152M524 178h152M524 196h152"/>
+    </g>
+
+    <circle cx="600" cy="258" r="34" fill="#16161A"/>
+    <circle cx="600" cy="258" r="6" fill="#FF2E88"/>
+
+    <rect x="514" y="318" width="172" height="330" rx="10" fill="#1A1A1F"/>
+    <g stroke="#34343C" stroke-width="3">
+      <path d="M520 342h160M520 366h160M520 390h160M520 414h160M520 438h160M520 462h160M520 486h160M520 510h160M520 534h160M520 558h160M520 582h160M520 606h160M520 630h160"/>
+    </g>
+
+    <rect x="514" y="676" width="172" height="44" rx="8" fill="#E2E2E8"/>
+    <g fill="#8B8B94">
+      <rect x="530" y="690" width="40" height="6" rx="3"/>
+      <rect x="530" y="704" width="64" height="6" rx="3"/>
+      <circle cx="660" cy="698" r="8"/>
+    </g>
+
+    <rect x="430" y="774" width="340" height="26" rx="13" fill="#9A9AA2"/>
+    <rect x="470" y="90" width="260" height="700" rx="34" fill="none" stroke="#ffffff" stroke-opacity="0.30"/>
+  </g>
+
+  <g fill="none" stroke="#FF2E88" stroke-opacity="0.28" stroke-width="2" stroke-linecap="round">
+    <path d="M790 380c60 26 90 64 96 116"/>
+    <path d="M806 340c74 32 110 80 118 142"/>
+  </g>
+</svg>
